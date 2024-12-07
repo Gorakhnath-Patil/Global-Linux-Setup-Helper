@@ -1,0 +1,3 @@
+# Example Output
+Welcome to the installation script.
+Please select your applications to install.

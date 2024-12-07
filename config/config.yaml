@@ -1,0 +1,45 @@
+# Configuration file for the "Global Linux Setup Helper"
+# This file contains the list of applications to be installed for each user type (Normal User, Software Developer, Gamer)
+
+apps:
+  # For Normal User: This category includes basic multimedia applications that are commonly used by average desktop users
+  normal_user:
+    # VLC: Popular open-source multimedia player
+    - VLC
+    # Chrome: Google's web browser
+    - Chrome
+    # Brave: Privacy-focused web browser based on Chromium
+    - Brave
+    # You can add more normal user applications here as needed
+    # - Spotify
+    # - GIMP
+
+  # For Software Developer: This category includes development tools and languages commonly used by software developers
+  developer:
+    # Python: Widely used programming language
+    - Python
+    # Go: Go programming language
+    - Go
+    # Java: Popular programming language
+    - Java
+    # Atom: Text editor for code development (alternatively can be VS Code or Sublime)
+    - Atom
+    # Git: Version control system for code management
+    - Git
+    # You can add more developer tools here as needed
+    # - Docker
+    # - Node.js
+    # - Maven
+
+  # For Gamer: This category includes applications related to gaming, such as game clients, emulators, and tools for running Windows games on Linux
+  gamer:
+    # Steam: Popular gaming platform for purchasing and playing games
+    - Steam
+    # Wine: Compatibility layer to run Windows applications on Linux
+    - Wine
+    # Emulators: Software to emulate other systems for playing games
+    - Emulators
+    # You can add more gaming tools here as needed
+    # - Lutris
+    # - PlayOnLinux
+    # - Discord
